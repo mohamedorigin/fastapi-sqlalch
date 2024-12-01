@@ -1,0 +1,21 @@
+fastapi-sqlalch/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── database.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── base.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   └── base.py
+│   └── api/
+│       ├── __init__.py
+│       └── v1/
+│           ├── __init__.py
+│           └── endpoints.py
+├── alembic/
+│   └── env.py
+├── alembic.ini
+└── requirements.txt

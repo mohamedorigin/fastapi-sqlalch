@@ -1,0 +1,1 @@
+python -m sqlacodegen_v2 mysql+pymysql://root:adminITX@localhost/fastapi_db > app/models/models.py
